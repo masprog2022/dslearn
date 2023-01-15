@@ -100,6 +100,10 @@ public class User implements Serializable {
 	public void setRoles(Set<Role> roles) {
 		this.roles = roles;
 	}
+	
+	public List<Notification> getNotifications() {
+		return notifications;
+	}
 
 	@Override
 	public int hashCode() {
